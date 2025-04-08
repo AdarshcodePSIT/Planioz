@@ -1,13 +1,13 @@
-/* .header{
+.header{
     height: 34vw;
     margin: 30px auto;
     background: url('/header_img.jpg') no-repeat;
     background-size:cover;
     position: relative;
-} */
+}
 
 
-.header {
+/* .header {
     height: 34vw;
     margin: 30px auto;
     position: relative;
@@ -22,7 +22,7 @@
     background-size: cover;
     opacity: 0.7;
     z-index: -1; 
-  }
+  } */
 
 .header-contents{
     position: absolute;
