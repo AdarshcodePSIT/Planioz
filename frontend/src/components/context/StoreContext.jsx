@@ -9,6 +9,7 @@ const StoreContextProvider = (props) => {
     const url = "https://planioz.onrender.com";
     const [token,setToken] = useState("");
     const currency = "₹"
+    const deliveryCharge =0
     const [food_list, setFoodList] = useState([]);
 
     const addToCart = async (itemId) => {
@@ -74,6 +75,7 @@ const StoreContextProvider = (props) => {
         url,
         token,
         currency,
+        deliveryCharge,
         setToken
     }
 
